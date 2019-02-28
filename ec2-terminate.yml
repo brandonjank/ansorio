@@ -13,6 +13,6 @@
         exact_count: 0
         count_tag:
           Name: Factorio
-        image: ami-a025aeb6
+        image: ami-08692d171e3cf02d6
       register: ec2
 
