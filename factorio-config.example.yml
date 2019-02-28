@@ -7,6 +7,7 @@ region: us-west-2
 zone: us-west-2a
 instance_type: c4.large # C4 has good CPU performance, memory, network; i3 instance type might be better; investigate
 spot_price: 0.05 # spot bid price; use spot instances because they're a lot cheaper, and we back up to S3; so worst case we lose a few minutes of play
+ami_id: ami-08692d171e3cf02d6 #Ubuntu 16.04 64-bit HVM
 # ephemeral_device # if you want to mount an ephemeral local disk at the factorio working directory, such as on an i3.large NVME SSD
 
 # Public IP address of the machine you are running the playbook from, to allow ssh access in the SG
