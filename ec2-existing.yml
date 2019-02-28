@@ -13,7 +13,7 @@
         exact_count: 1
         count_tag:
           Name: Factorio
-        image: ami-a025aeb6
+        image: "{{ ami_id }}"
       register: ec2
 
     - name: Add new instance to host group
