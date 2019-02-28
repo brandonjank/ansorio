@@ -16,6 +16,7 @@ This ansible playbook will successfully create a running Factorio server on an A
 
 ## To use
 1. Install the requirements:
+  `sudo apt install libssl-dev`
   `pip install -r requirements.txt`
   We recommend using a virtualenv.
 
